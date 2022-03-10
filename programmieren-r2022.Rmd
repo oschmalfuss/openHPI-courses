@@ -1,0 +1,34 @@
+---
+title: "programmieren-r2022"
+author:
+- first_name: "Olaf"
+  last_name: "Schmalfuss"
+  orcid_id: 0000-0002-1919-3848
+  url: https://www.datamercs.net
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Woche 0
+
+## Willkommen zum Kurs
+
+> https://open.hpi.de/courses/programmieren-r2022/items/6I7Op2x3bqfzcOLsAeWnZN
+
+## Forum zum Kurs
+
+[Forum](https://open.hpi.de/courses/programmieren-r2022/pinboard?tracking_course_id=7d1a5868-0fdf-4631-9f11-4839eabd9e50&tracking_id=dc86933e-f2c6-4d1d-b44c-db9d49c09e63&tracking_type=rich_text_item_link&url=https%3A%2F%2Fopen.hpi.de%2Fcourses%2Fprogrammieren-r2022%2Fpinboard)
+
+## Abgabefristen
+
+An dieser Stelle haben wir schon einmal alle Fristen zusammengetragen, die du während des Kurses beachten musst:
+
+* Woche 1: Dienstag, den 29. März, 23.55 Uhr UTC (in der Nacht von Dienstag auf Mittwoch um 1:55 Uhr Potsdamer Zeit)
+* Woche 2: Dienstag, den 29. März, 23.55 Uhr UTC (1:55 Uhr Potsdamer Zeit)
+* Woche 3: Dienstag, den 5. April, 23.55 Uhr UTC (1:55 Uhr Potsdamer Zeit)
+* Woche 4: Dienstag, den 12. April, 23.55 Uhr UTC (1:55 Uhr Potsdamer Zeit)
+
+Die Ergebnisse der Hausaufgabe werden jeweils am Folgetag um 11:00 Uhr UTC (13:00 Uhr Potsdamer Zeit) freigeschaltet. Die Ergebnisse der benoteten Programmieraufgabe sind bereits beim Scoring einsehbar.
