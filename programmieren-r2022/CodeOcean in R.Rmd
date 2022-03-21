@@ -88,3 +88,54 @@ Klicke auf den Pfeil oben links (oder *Verstecken* unten rechts), um die Anweisu
 
 Um eine komplette Übung zurückzusetzen, klicke auf die Schaltfläche mit der rückwärts laufenden Uhr im Dateifenster auf der linken Seite.  
 Um nur eine einzelne Datei zurückzusetzen, klicke auf die Schaltfläche unten rechts auf dem Bildschirm.  
+
+
+
+# TESTS
+
+## 1. Wie kann man 10000 noch schreiben?
+
+10*10^3
+10*10^4
+1e+04
+1e4
+
+## 2. Welcher Code löscht das vierte und fünfte Element eines Vektors vect?
+
+vect <- 1:10
+
+vect[-(4:5)]
+vect <- vect[-4:5]
+vect <- vect[-(4:5)]
+vect[c(1:3,6:9)] 
+
+## 3. Was ist das Ergebnis von c(6, 8) + 1:5?
+
+## 4. Welcher Code erzeugt einen Vektor von 100 bis 0 in 8er-Schritten?
+seq(100, 0, -8)
+sequence(100, 0, by=-8)
+seq(100, 0, by=-8)
+seq(100, 0, by=8)
+seq(100, 0, len=8) 
+
+## 5. Was gibt die Funktion 'order' aus?
+die Positionen der Werte nach Größe sortiert
+
+## 6. Welche dieser Maßzahlen sind auch für Messwerte mit einzelnen seltenen sehr großen Werten (Ausreißer) sinnvoll interpretierbar? zB c(3,889,6,4,8,2)
+
+test <- c(3,889,6,4,8,2)
+
+median(test)
+mean(test)
+sd(test)
+min(test)
+quantile(test)
+
+## 7. Was erhalten wir mit der 'tail' Funktion?
+die letzten Einträge eines Vektors
+tail(1:10)
+
+die letzen Elemente eines Objekts
+vect <- 1:10
+tail(vect)
+
