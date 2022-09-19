@@ -1,0 +1,48 @@
+ausgaben <- read.table(header=TRUE, text="
+    country spending
+Afghanistan  184
+    Armenia  883
+ Bangladesh   88
+    Belarus 1085
+    Belgium 4782
+   Cambodia  210
+     Canada 4600
+      China  762
+   Colombia  853
+      Congo  203
+    Ecuador  980
+   Ethiopia   65
+    Finland 3996
+     France 4542
+      Haiti  120
+   Honduras  353
+      India  237
+       Iraq  481
+     Israel 2819
+  Lithuania 1874
+     Malawi  108
+      Malta 3470
+Netherlands 5313
+       Peru  671
+     Rwanda  143
+     Serbia 1323
+     Sweden 5298
+       Togo   95
+   Zimbabwe  182")
+
+mortalitaet <- read.table(header=TRUE, text="
+ COUNTRY mort
+ Armenia 24.8
+Cambodia 65.1
+Colombia 20.4
+   Congo 66.3
+   Egypt 31.6
+Ethiopia 65.9
+  Guinea 82.1
+   Haiti 57.4
+Honduras 23.6
+   India 48.4
+    Peru 23.3
+  Rwanda 68.8
+ Senegal 51.7
+Zimbabwe 46.0")
